@@ -1,0 +1,492 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 31 20:22:59 2021
+# Process ID: 16512
+# Current directory: C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.runs/synth_1
+# Command line: vivado.exe -log SIPO.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SIPO.tcl
+# Log file: C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.runs/synth_1/SIPO.vds
+# Journal file: C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SIPO.tcl -notrace
+Command: synth_design -top SIPO -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16224 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 379.402 ; gain = 100.371
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SIPO' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:10]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'flipflopD' (1#1) [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:10]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Synth 8-3491] module 'flipflopD' declared at 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd:4' bound to instance 'FFD' of component 'flipflopD' [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:19]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'SIPO' (2#1) [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/sources_1/new/SIPO.vhd:10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 436.094 ; gain = 157.062
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 436.094 ; gain = 157.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 436.094 ; gain = 157.062
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/constrs_1/new/constrs_SIPO.xdc]
+Finished Parsing XDC File [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/constrs_1/new/constrs_SIPO.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.srcs/constrs_1/new/constrs_SIPO.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SIPO_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SIPO_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 784.258 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 784.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 784.266 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 784.266 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 127   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module flipflopD 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design SIPO has unconnected port RST
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[0].FFD/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[1].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[2].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[3].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[4].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[5].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[6].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[7].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[8].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[9].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[10].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[11].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[12].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[13].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[14].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[15].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[16].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[17].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[18].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[19].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[20].FFD/Q_reg' (FDR) to 'SIPOs[15].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[21].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[22].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[23].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[24].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[25].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[26].FFD/Q_reg' (FDR) to 'SIPOs[15].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[27].FFD/Q_reg' (FDR) to 'SIPOs[21].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[28].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[29].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[30].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[31].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[32].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[33].FFD/Q_reg' (FDR) to 'SIPOs[15].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[34].FFD/Q_reg' (FDR) to 'SIPOs[21].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[35].FFD/Q_reg' (FDR) to 'SIPOs[28].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[36].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[37].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[38].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[39].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[40].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[41].FFD/Q_reg' (FDR) to 'SIPOs[15].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[42].FFD/Q_reg' (FDR) to 'SIPOs[21].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[43].FFD/Q_reg' (FDR) to 'SIPOs[28].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[44].FFD/Q_reg' (FDR) to 'SIPOs[36].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[45].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[46].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[47].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[48].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[49].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[50].FFD/Q_reg' (FDR) to 'SIPOs[15].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[51].FFD/Q_reg' (FDR) to 'SIPOs[21].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[52].FFD/Q_reg' (FDR) to 'SIPOs[28].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[53].FFD/Q_reg' (FDR) to 'SIPOs[36].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[54].FFD/Q_reg' (FDR) to 'SIPOs[45].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[55].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[56].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[57].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[58].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[59].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[60].FFD/Q_reg' (FDR) to 'SIPOs[15].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[61].FFD/Q_reg' (FDR) to 'SIPOs[21].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[62].FFD/Q_reg' (FDR) to 'SIPOs[28].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[63].FFD/Q_reg' (FDR) to 'SIPOs[36].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[64].FFD/Q_reg' (FDR) to 'SIPOs[45].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[65].FFD/Q_reg' (FDR) to 'SIPOs[55].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[66].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[67].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[68].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[69].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[70].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[71].FFD/Q_reg' (FDR) to 'SIPOs[15].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[72].FFD/Q_reg' (FDR) to 'SIPOs[21].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[73].FFD/Q_reg' (FDR) to 'SIPOs[28].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[74].FFD/Q_reg' (FDR) to 'SIPOs[36].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[75].FFD/Q_reg' (FDR) to 'SIPOs[45].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[76].FFD/Q_reg' (FDR) to 'SIPOs[55].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[77].FFD/Q_reg' (FDR) to 'SIPOs[66].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[78].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[79].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[80].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[81].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[82].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[83].FFD/Q_reg' (FDR) to 'SIPOs[15].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[84].FFD/Q_reg' (FDR) to 'SIPOs[21].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[85].FFD/Q_reg' (FDR) to 'SIPOs[28].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[86].FFD/Q_reg' (FDR) to 'SIPOs[36].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[87].FFD/Q_reg' (FDR) to 'SIPOs[45].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[88].FFD/Q_reg' (FDR) to 'SIPOs[55].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[89].FFD/Q_reg' (FDR) to 'SIPOs[66].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[90].FFD/Q_reg' (FDR) to 'SIPOs[78].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[91].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[92].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[93].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[94].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[95].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[96].FFD/Q_reg' (FDR) to 'SIPOs[15].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[97].FFD/Q_reg' (FDR) to 'SIPOs[21].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[98].FFD/Q_reg' (FDR) to 'SIPOs[28].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[99].FFD/Q_reg' (FDR) to 'SIPOs[36].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[100].FFD/Q_reg' (FDR) to 'SIPOs[45].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[101].FFD/Q_reg' (FDR) to 'SIPOs[55].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[102].FFD/Q_reg' (FDR) to 'SIPOs[66].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[103].FFD/Q_reg' (FDR) to 'SIPOs[78].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[104].FFD/Q_reg' (FDR) to 'SIPOs[91].FFD/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[105].FFD/Q_reg )
+INFO: [Synth 8-3886] merging instance 'SIPOs[106].FFD/Q_reg' (FDR) to 'SIPOs[1].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[107].FFD/Q_reg' (FDR) to 'SIPOs[3].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[108].FFD/Q_reg' (FDR) to 'SIPOs[6].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[109].FFD/Q_reg' (FDR) to 'SIPOs[10].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[110].FFD/Q_reg' (FDR) to 'SIPOs[15].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[111].FFD/Q_reg' (FDR) to 'SIPOs[21].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[112].FFD/Q_reg' (FDR) to 'SIPOs[28].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[113].FFD/Q_reg' (FDR) to 'SIPOs[36].FFD/Q_reg'
+INFO: [Synth 8-3886] merging instance 'SIPOs[114].FFD/Q_reg' (FDR) to 'SIPOs[45].FFD/Q_reg'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[120].FFD/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[28].FFD/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[1].FFD/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[6].FFD/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[21].FFD/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[1].FFD/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SIPOs[1].FFD/Q_reg )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |IBUF |     1|
+|2     |OBUF |   128|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   129|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 784.266 ; gain = 505.234
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 784.266 ; gain = 157.062
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 784.266 ; gain = 505.234
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 786.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+238 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 786.555 ; gain = 519.340
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 786.555 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/HUARGEN/DADS_Practica_3/DADS_Practica_3.runs/synth_1/SIPO.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file SIPO_utilization_synth.rpt -pb SIPO_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 31 20:23:36 2021...

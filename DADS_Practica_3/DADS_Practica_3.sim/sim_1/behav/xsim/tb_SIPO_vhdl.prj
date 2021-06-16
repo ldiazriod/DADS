@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../DADS_Practica_3.srcs/sources_1/new/SIPO.vhd" \
+"../../../../DADS_Practica_3.srcs/sources_1/new/flipflopD.vhd" \
+"../../../../DADS_Practica_3.srcs/sim_1/new/tb_SIPO.vhd" \
+
+# Do not sort compile order
+nosort
